@@ -1,0 +1,114 @@
+
+body, .container{
+    max-width: 1350px !important;
+}
+.our-menu-list li a{
+	color: black !important;
+	padding: 0 20px;
+	font-weight: bold;
+	text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+.our-menu-list li a:hover{
+    color: red !important;
+}
+
+
+.our-header-menu{
+    background: #ddd !important;
+    z-index: 1;
+}
+.header-logu a{
+    width: 100px;
+}
+img{
+    max-width: 100%;
+}
+
+/* DropDwon-Menu Start */
+.our-menu-list  li{
+    position: relative;
+}
+.our-menu-list li ul {
+	position: absolute;
+	top: 222%;
+	left: 0;
+    list-style: none;
+	width: 150px;
+	height: auto;
+	padding: 0;
+	display: block;
+	background: #ddd;
+	box-shadow: 1px 1px -11px;
+	border-radius: 0 0 5px 5px;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+.our-menu-list li ul li{
+    border-bottom: 1px solid #fff;
+}
+.our-menu-list ul li a{
+    display: block;
+}
+.our-menu-list li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 60px;
+}
+
+.header-search span{
+
+}
+.header-search span {
+	font-size: 17px;
+	line-height: 48px;
+	padding-right: 12px;
+	border-right: 1px solid #fff;
+	margin-right: 16px;
+}
+.header-icon span {
+	font-size: 30px;
+	color: red;
+}
+.header-info-text span{
+
+}
+.header-info-text a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+
+/* slider-section */
+
+.slider-ing {
+	background-image: url(./hero-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	position: relative;
+	height: 688px;
+	width: 736px;
+	right: -29px;
+	top: -105px;
+    overflow: hidden;
+}
+
+.slider-text{
+    padding: 100px 0;
+}
+.slider-text span{
+    color: red;
+    font-size: 20px;
+}
+.slider-text h1 {
+	font-size: 61px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+.slider-text p{}
